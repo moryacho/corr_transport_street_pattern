@@ -1,10 +1,15 @@
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
-!*.code-workspace
+# Игнорировать всё
+*
 
-# Built Visual Studio Code Extensions
-*.vsix
+# Но не игнорировать папки
+!*/
+
+# Показывать только .ipynb файлы
+!*.ipynb
+
+# Игнорировать вложенные Git-репозитории
+connectpt/
+street-pattern-classifier/
+
+# Игнорировать папку data (если не хотите её отслеживать)
+data/
